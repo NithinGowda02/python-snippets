@@ -1,4 +1,4 @@
-print("WELCOME TO MY QUIZ GAME...")
+print("WELCOME TO MY QUIZ GAME..")
 print("===========================")
 play = input("Do you want to play >> ").lower()
 if play != "yes":
@@ -47,4 +47,5 @@ print("***************************************")
 print(f"Your score >> {score}") 
  
 print(f"Thank you for Playing. you got {(score/5) *100}%.")
+
 print("***************************************")               
